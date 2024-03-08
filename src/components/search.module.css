@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.inputSearch {
+  width: 100%;
+  padding: 10px 20px;
+  border: 0;
+  border-bottom: 1px solid #dddddd;
+  outline: none;
+}

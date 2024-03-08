@@ -6,14 +6,9 @@ export default function RecipeItem({ item }) {
   };
 
   return (
-    <div>
-      <h2>{item.title}</h2>;
-      <img
-        className={styles.image}
-        src={item.image}
-        alt={item.title}
-        onClick={handleClick}
-      />
+    <div className={styles.resultContainer} onClick={handleClick}>
+      <img src={item.image} alt={item.title} />
+      <h2>{item.title}</h2>
     </div>
   );
 }

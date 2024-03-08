@@ -1,7 +1,8 @@
 import { useState } from "react";
 import Search from "./components/Search";
 import RecipeList from "./components/RecipeList";
-import global from "./app.css";
+import globalReset from "./appReset.css";
+// import globalDefault from "./appDefault.css";
 import Nav from "./components/Nav";
 
 function App() {
