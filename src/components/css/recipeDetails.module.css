@@ -1,0 +1,35 @@
+.detailsContainer {
+  height: fit-content;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.detailsContent {
+  max-width: 556px;
+  margin: 40px;
+}
+
+.detailsContent h1 {
+  text-align: center;
+}
+
+.detailsContent h3 {
+  margin-top: 40px;
+}
+
+/**
+Image size: 556x370px
+*/
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+}
+
+.abstract {
+  margin: 10px 0px;
+}
+
+.instructions .step {
+  margin-bottom: 10px;
+}

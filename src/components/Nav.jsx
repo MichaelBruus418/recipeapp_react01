@@ -1,5 +1,12 @@
-import styles from "./nav.module.css";
+import styles from "./css/nav.module.css";
+import global from "./css/global.module.css";
 
 export default function Nav() {
-  return <div className={styles.nav}>🍔 Recipe App</div>;
+  return (
+    <div className={styles.navContainer}>
+      <div className={`${styles.content} ${global.maxWidth}`}>
+        🍔 Recipe App
+      </div>
+    </div>
+  );
 }

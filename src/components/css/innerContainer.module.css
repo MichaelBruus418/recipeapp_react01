@@ -1,0 +1,14 @@
+.innerContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.innerContainer:first-of-type {
+  --distance: 50px;
+  margin-right: var(--distance);
+}
+
+.innerContainer:last-of-type {
+  margin-left: var(--distance);
+}

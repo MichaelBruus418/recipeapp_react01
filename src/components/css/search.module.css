@@ -1,0 +1,28 @@
+.container {
+  width: 400px;
+  margin: 20px auto 50px auto;
+}
+
+.inputSearch {
+  width: 100%;
+  padding: 10px 20px;
+  border: 0;
+  border-bottom: 1px solid #dddddd;
+  outline: none;
+}
+
+.dietContainer {
+  margin-top: 10px;
+}
+
+.dietLabel {
+  margin-right: 10px;
+}
+
+.dietLabel,
+.dietContainer select {
+  font-size: 0.8rem;
+}
+
+.dietContainer option {
+}

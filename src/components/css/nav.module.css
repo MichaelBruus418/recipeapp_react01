@@ -1,8 +1,11 @@
-.nav {
+.navContainer {
   padding: 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: bold;
-  color: #393e46;
+}
+
+.content {
+  margin: 0 auto;
 }

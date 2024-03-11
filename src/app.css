@@ -11,7 +11,7 @@ border-box:     Border and padding doesn't add to the size of the element (but s
   box-sizing: border-box;
 }
 
-*:not(p, h1, h2, h3, h4, h5, h6) {
+*:not(p) {
   margin: 0;
   padding: 0;
 }
@@ -27,6 +27,11 @@ body {
   font-size: 16px;
 }
 
+#root {
+  /* background-color: yellowgreen; */
+  min-width: 768px;
+}
+
 /**
 Scale image to 100% of parent with respect to ratio,
 while not exeeding original size.
@@ -40,7 +45,16 @@ img {
   vertical-align: top;
 }
 
-/* Default Headings */
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.2em 0 1em 0;
+}
+
 h1 {
   font-size: 32px;
 }
@@ -63,4 +77,11 @@ h5 {
 
 h6 {
   font-size: 11px;
+}
+
+/* Misc. */
+
+ul,
+ol {
+  list-style-position: inside;
 }

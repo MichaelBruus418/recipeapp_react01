@@ -8,8 +8,11 @@ The free plan only has a amount of API requests.
 After signing up, API locate api key under 'MyConsole > Profile'.
 Find endpoint route under 'Docs'.
 
-Endpoint:
+Search Recipes Endpoint:
 https://api.spoonacular.com/recipes/complexSearch
+
+Recipe Details Endpoint:
+https://api.spoonacular.com/recipes/{id}/information
 
 API key:
 b286f34c8e2c49229c6d425b757816f7
